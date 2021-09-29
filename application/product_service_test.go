@@ -55,4 +55,7 @@ func TestProductService_EnableDisable(t *testing.T) {
 	require.Nil(t, err)
 	require.Equal(t, product, result)
 
+	result, err = service.Disable(product)
+	require.Nil(t, err)
+	require.Equal(t, product, result)
 }
