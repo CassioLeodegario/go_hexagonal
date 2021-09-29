@@ -62,32 +62,32 @@ func (mr *MockProductInterfaceMockRecorder) Enable() *gomock.Call {
 	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "Enable", reflect.TypeOf((*MockProductInterface)(nil).Enable))
 }
 
-// GeName mocks base method.
-func (m *MockProductInterface) GeName() string {
+// GetID mocks base method.
+func (m *MockProductInterface) GetID() string {
 	m.ctrl.T.Helper()
-	ret := m.ctrl.Call(m, "GeName")
+	ret := m.ctrl.Call(m, "GetID")
 	ret0, _ := ret[0].(string)
 	return ret0
 }
 
-// GeName indicates an expected call of GeName.
-func (mr *MockProductInterfaceMockRecorder) GeName() *gomock.Call {
+// GetID indicates an expected call of GetID.
+func (mr *MockProductInterfaceMockRecorder) GetID() *gomock.Call {
 	mr.mock.ctrl.T.Helper()
-	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GeName", reflect.TypeOf((*MockProductInterface)(nil).GeName))
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetID", reflect.TypeOf((*MockProductInterface)(nil).GetID))
 }
 
-// GetId mocks base method.
-func (m *MockProductInterface) GetId() string {
+// GetName mocks base method.
+func (m *MockProductInterface) GetName() string {
 	m.ctrl.T.Helper()
-	ret := m.ctrl.Call(m, "GetId")
+	ret := m.ctrl.Call(m, "GetName")
 	ret0, _ := ret[0].(string)
 	return ret0
 }
 
-// GetId indicates an expected call of GetId.
-func (mr *MockProductInterfaceMockRecorder) GetId() *gomock.Call {
+// GetName indicates an expected call of GetName.
+func (mr *MockProductInterfaceMockRecorder) GetName() *gomock.Call {
 	mr.mock.ctrl.T.Helper()
-	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetId", reflect.TypeOf((*MockProductInterface)(nil).GetId))
+	return mr.mock.ctrl.RecordCallWithMethodType(mr.mock, "GetName", reflect.TypeOf((*MockProductInterface)(nil).GetName))
 }
 
 // GetPrice mocks base method.
