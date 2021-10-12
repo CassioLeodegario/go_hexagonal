@@ -1,3 +1,3 @@
 # go_hexagonal
 
-### a  brief example on how to implements ports and adapters with go
+### a  brief example on how to implement ports and adapters with go
